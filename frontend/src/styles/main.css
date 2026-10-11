@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { background: #f3f4f6; }
+
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: #f1f1f1; }
+::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+
+.modal { transition: opacity .25s ease; }
+body.modal-active { overflow: hidden !important; }
+.ring-bg { stroke: #e5e7eb; }
+.donut-arc { transition: stroke-dasharray .8s ease; }
+.bar-fill { transition: width .8s ease; }
